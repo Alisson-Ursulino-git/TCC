@@ -1,0 +1,63 @@
+\chapter{Introdução}
+\label{cap:introducao}
+
+A economia global é profundamente influenciada pelas bolsas de valores e pelo sistema bancário, que formam a base do sistema financeiro mundial. Este sistema representa o lado monetário da economia, que financia as operações do lado real, composto pelo mercado de bens e serviços e pelo mercado de trabalho.
+
+As flutuações inerentes à complexa dinâmica do mercado financeiro têm o potencial de desencadear crises econômicas e financeiras de magnitude global. O século 20 foi marcado por várias dessas crises. A primeira grande crise financeira do século foi o Pânico de 1907 \cite{CF1-Frydman2015}, superada em gravidade apenas pela Grande Depressão de 1930 \cite{CF2-Crafts2010}, precipitada pela queda dos preços no mercado agrícola nos EUA em 1928 \cite{CF3-Aparicio2019} \cite{CF3-Hamilton1987}.
+
+Em 1971 \cite{CF4-Hager1987}, os gastos excessivos dos EUA no exterior e a Guerra do Vietnã levaram ao fim do sistema padrão-ouro, quando as reservas de ouro do país se reduziram drasticamente. Isso foi seguido pela primeira crise do petróleo em 1973 \cite{CF5-Issawi1978}, durante a Guerra do Yom Kippur, quando o corte de provisão dos Estados que compõem a Organização dos Países Exportadores de Petróleo (Opep) provocou o aumento na commodity em 1974 \cite{CF6-Engler1977}.
+
+A Revolução Iraniana em 1979 \cite{CF7-Hamilton2011} provocou a segunda crise do petróleo, causando um novo colapso internacional. No entanto, uma das crises mais graves desde a Grande Depressão de 1930 foi a crise financeira global de 2008 (crise do Subprime ) \cite{CF8-Nelson2014}.
+
+Mais recentemente, a Crise do Coronavírus em 2020 \cite{CF9-Shehzad2020} \cite{CF9-Fernandes2022} foi detonada pela pandemia global do coronavírus e derrubou a economia de forma implacável. Esta é considerada a crise mais grave desde a crise financeira de 2008. 
+
+Existem flutuações nos valores das ações que podem ser atribuídas a fatores endógenos e exógenos. Os fatores endógenos são variáveis que dependem de outras variáveis dentro de um modelo estatístico e/ou econômico. Por outro lado, os fatores exógenos são aqueles que são independentes de fatores dentro de um sistema econômico específico \cite{FEE1-Koyama2020}. 
+
+Um aspecto importante a considerar é que o preço das ações nem sempre reflete de maneira justa as informações associadas a elas. Isso torna as ações suscetíveis a eventos extremos. Eventos extremos em finanças são uma questão central, particularmente em gestão de risco, gestão de ativos e regulação financeira. Esses eventos podem ser definidos como uma ocorrência dinâmica dentro de um período de tempo limitado que impede o funcionamento normal de um sistema \cite{EE1-Broska2020}, em sistemas financeiros, eles são de ocorrências raras com alto potencial destrutivo que podem gerar instabilidade financeira. 
+
+Em sistemas financeiros, eventos extremos tendem a ocorrer em momentos de baixa eficiência do mercado. Isso pode ocorrer por várias razões. Por exemplo, em um mercado ineficiente, nem todos os participantes têm acesso à mesma informação \cite{FI1-Bouattour2019} \cite{FI1-Brody2009}. Isso pode levar a decisões de investimento mal informadas que podem desencadear eventos extremos. Além disso, os investidores podem reagir de forma exagerada a notícias negativas ou positivas, criando bolhas de mercado e subsequentes quedas \cite{FI2-Kadir}.
+
+Outro fator que pode levar a eventos extremos é a falta de liquidez \cite{FI3-Victor}  \cite{FI3-Cajueiro2004} . Em mercados ineficientes, pode haver falta de liquidez, o que significa que os investidores não conseguem comprar ou vender ativos rapidamente sem afetar significativamente o preço do ativo. Isso pode levar a movimentos de preços extremos.
+
+Por fim, em um sistema financeiro globalizado e interconectado, os problemas em um mercado podem rapidamente se espalhar para outros mercados, levando a eventos extremos \cite{FI4-Wang2013}.
+
+%\section{Hipótese do Mercado Eficiente}
+
+Nesse sentido, ter informações sobre a eficiência de um determinado mercado é de crucial importância para a tomada de decisões. %Em um cenário onde as chances são iguais para todos, temos uma reflexão de um mercado eficiente, pois ele não permite inferências precisas sobre seu comportamento ao longo do tempo. 
+Um cenário econômico que reflete a eficiência de mercado é caracterizado por uma conjuntura econômica e financeira que as chances são iguais para todos, pois nessa situação não é possível a existência de assimetria informacional e consequentemente assimetria de arbitragem. Por outro lado, quem está comprando ou vendendo um determinado ativo pode enfrentar incertezas financeiras em relação ao preço desse ativo. Essa é uma característica de um mercado Eficiente. 
+
+Ativos ineficientes podem trazer vantagens para o investidor. Quando a informação se move lentamente de sua origem para o sistema financeiro, alguns negociadores podem tomar decisões mais rapidamente do que a velocidade com que essa informação se reflete no preço de uma ação. A informação é ‘capturada’ e refletida no preço antes que possa ser incorporada ao ativo.
+
+Essa ideia foi formalizada por \cite{ME2-fama1970efficient} a eficiência do mercado é descrita pela Hipótese do Mercado Eficiente (EMH) \cite{ME1-Samuelson2015}, que sugere que os preços das ações sempre refletem todas as informações disponíveis, tornando impossível obter retornos consistentemente superiores ao mercado. 
+
+A EMH pode ser subdividida, com base no nível de ‘captura’ das informações, em três formas: Eficiência Fraca (baseada apenas em dados históricos), Eficiência Semi-Forte (considera que os dados históricos e todas as informações publicamente disponíveis seriam incorporadas nos preços atuais) e Eficiência Forte (considera a primeira hipótese e que todo tipo de informação pública e privada seria incorporada nos preços atuais). \cite{EF5-Fernandes2020}. 
+
+A eficiência do mercado é um conceito fundamental na economia financeira. No entanto, obter um conjunto completo de informações para avaliar a eficiência do mercado não é uma atividade trivial, especialmente para abordagens quantitativas. Nessa perspectiva, vários métodos têm sido desenvolvidos para medir o grau de eficiência de um mercado.
+
+Os métodos convencionais se baseiam na análise de memória e multifractalidade de uma série temporal para verificar pelo menos a sua ineficiência na forma fraca. Por exemplo, \cite{EF3-Ito2009} aplica um modelo de espaço de estados para estimar os coeficientes AR que variam no tempo, representando a autocorrelação dos retornos das ações. Eles usam o método da janela móvel para verificar a estrutura variável no tempo das autocorrelações. 
+
+Além disso, outras metodologias bastante utilizadas incluem aquelas baseadas no uso de estatísticas R/S e no cálculo do expoente de Hurst para avaliar a multifractalidade e a dependência temporal de uma série financeira \cite{H1-Tzouras2015} \cite{H2-Chen2017} \cite{H3-Takaishi2020}. Em um dos trabalhos mais recentes, \cite{H4-Mangalam2023} se destaca pelo uso do Método Bayesiano para estimar o expoente de Hurst.
+
+No entanto, esses métodos focam principalmente na autocorrelação temporal e podem não capturar toda a complexidade inerente aos mercados financeiros. É aqui que a análise da entropia entra em jogo.
+
+A entropia é uma medida de incerteza, desordem ou complexidade. No contexto dos mercados financeiros, a entropia pode ser usada para quantificar a complexidade e a imprevisibilidade dos retornos dos preços. Em um mercado eficiente, espera-se que os retornos dos preços sejam aleatórios e imprevisíveis, levando a uma alta entropia. Portanto, a entropia pode fornecer uma visão adicional sobre a eficiência do mercado além dos métodos convencionais de autocorrelação.
+
+Por exemplo, \cite{EF1-Shmilovici2003} usa o algoritmo da árvore de contexto, um método de codificação universal, para medir a complexidade estocástica de uma série temporal. A ideia subjacente é que, em um mercado eficiente, a compressão da série temporal não é possível devido à ausência de padrões e à alta complexidade estocástica.
+
+Em \cite{EF2-Giglio2008}, os autores propõem um método baseado na teoria da complexidade algorítmica para avaliar a eficiência relativa de 36 índices de bolsas de valores e 20 taxas de câmbio do dólar americano. Eles utilizam o índice de complexidade de Lempel-Ziv (LZ) para medir o grau de aleatoriedade e não-redundância das séries temporais de retornos financeiros e fazem uma comparação com o caso ideal de um mercado eficiente que gera uma série genuinamente aleatória. 
+
+Finalmente, \cite{EF4-Measuring-market-efficiency} propõe uma metodologia computacional para estimar a entropia de Shannon de séries temporais financeiras de alta frequência.
+
+Contudo, mesmo a análise da entropia convencional pode não ser suficiente para capturar todas as nuances dos mercados financeiros. Isso ocorre porque os mercados financeiros são, por natureza, sistemas fora do equilíbrio e podem exibir propriedades de não extensividade. É aqui que a Entropia de Tsallis entra em jogo.
+
+Os sistemas fora do equilíbrio são aqueles que estão em um estado de mudança constante e não atingem um estado estável ou equilibrado.\cite{eq1-Luczak2016} \cite{eq3-Mears2019} \cite{eq3-Mears2019} \cite{eq4-Renard2022}. Nos mercados financeiros, isso é evidente na forma como os preços das ações flutuam constantemente com base em uma variedade de fatores, como notícias econômicas, relatórios de ganhos, mudanças políticas e muito mais.
+
+A não extensividade, por outro lado, é uma propriedade que descreve sistemas nos quais as quantidades macroscópicas (como a entropia) não escalam linearmente com o tamanho do sistema \cite{nex2-Wilk2023}. Em outras palavras, se você duplicar o tamanho do sistema, as quantidades macroscópicas não necessariamente dobram. Isso é comum em muitos sistemas complexos e dinâmicos, incluindo os mercados financeiros \cite{nex1-Borland2006} \cite{nex3-Nayak2021} \cite{nex4-Antoniades2021}.
+
+A Entropia de Tsallis, uma generalização da entropia de Shannon, é particularmente útil para analisar tais sistemas \cite{qG2-Iliopoulos2015}. Ela fornece uma medida da incerteza, desordem ou complexidade que leva em consideração a não extensividade do sistema. Além disso, eles podem desvendar uma variedade de fenômenos auto-organizados, tais como: atratores estranhos, comportamento caótico, correlações de longo alcance, estados de estado de não-equilíbrio, difusão anômala e comportamento multifractal \cite{qG1-Antoniades2021}.
+
+Assim, ao incorporar a Entropia de Tsallis em nossa análise, podemos obter uma visão mais completa da eficiência do mercado. Além de capturar a autocorrelação e a complexidade inerente ao sistema, a Entropia de Tsallis nos permite quantificar o nível de não extensividade inerente ao sistema. Isso nos dá uma visão mais profunda de como as informações são incorporadas nos preços das ações em mercados que estão constantemente mudando e estão longe do equilíbrio.
+
+Este trabalho realiza um estudo sistemático e aplicado, levando em consideração a entropia de Boltzmann, Shannon e Tsallis aplicada a índices de mercado acionários representativos em nível global. Focamos na análise dos valores de convergência da entropia de Tsallis no infinito, explorando o que esses pontos de convergência da Entropia Não-Extensiva podem revelar sobre a aleatoriedade e complexidade dos mercados. Isso nos permite sugerir indicadores de eficiência de maneira holística e quantitativa.
+
+Nossa abordagem oferece uma visão mais completa da eficiência do mercado, pois leva em consideração não apenas a autocorrelação e a complexidade do sistema, mas também a não extensividade do sistema. Isso nos permite compreender melhor como as informações são incorporadas nos preços das ações e, consequentemente, a eficiência do mercado.
